@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Google</title>
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="goog.css">
+    <link rel="icon" type="image/png" href="trans_google.png">
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-white">
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav ">
+                <ul class="navbar-nav mb-2 mb-lg-0 me-2">
+                    <li class="nav-item"> <a id="diLink" class="nav-link text-black"
+                            href="https://mail.google.com/mail/&ogbl" style="font-size: 14px;">Gmail</a></li>
+                    <li class="nav-item"> <a id="diLink" class="nav-link text-black me-2"
+                            href="https://www.google.co.za/imghp?hl=en&ogbl" style="font-size: 14px;">Images</a></li>
+                    <img id="grid1" class="p-1  me-2" src="grid.png" alt="" style="">
+                    <a
+                        href="https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/&ec=GAZAmgQ"><button
+                            class="btn btn-primary px-4 me-2">Sign
+                            In</button></a>
+                    <!-- <button type="submit" class="btn btn-primary px-4 me-2"><a
+                            href="https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/&ec=GAZAmgQ"></a></button> -->
+                </ul>
+            </div>
+        </nav>
+
+
+    </header>
+
+    <div class=" d-flex align-items-center justify-content-center" style="margin-top: 200px;">
+        <div><img src="logo.png" alt=""></div>
+    </div>
+    <div id="searchb" class="d-flex align-items-center mx-auto mt-4"
+        style="border: 1px solid  lightgray; border-radius: 30px; width: 30%;">
+        <div class="input-group mx-auto" style="width: 100%; border: none;">
+            <span class="input-group-text bg-transparent " style="border: none "><img class="bg-white; "
+                    src="magnifying-glass.png" style="width: 15px; height: 15px; " alt=""></span>
+            <input id="mainInput" type="text" class="form-control "
+                style="border: none; border-left: none; height: 45px;"
+                aria-label="Dollar amount (with dot and two decimal places)">
+            <span class="input-group-text bg-transparent " style="border: none;"><a class="border: none" href=""><img
+                        src="microphone.png" alt="" style="width: 17px; height: 17px; margin-bottom: 5px; "></a></span>
+        </div>
+    </div>
+    <!-- <div class=" d-flex align-items-center justify-content-center">
+        <div class="input-group" style="width: 30%;">
+
+            <label for="searchb"><i class="fas fa-search"></i></label>
+            <button class="btn btn-outline-secondary " type="button">poop</button>
+            <input class="form-control mt-4 " type="text" name="searchb"
+                style="width: 30%; height: 45px; border: 1px solid lightgray; border-left: none; border-right: none;"
+                id="searchb">
+            <button class="bg-white mt-4" style="height: 45px; border: 1px solid lightgray;"
+                type="button">poop</button>
+            <label for="searchb"><i class="fas fa-microphone"></i></label>
+        </div>
+    </div> -->
+
+    <div class="d-flex align-items-center justify-content-center mt-4">
+        <button id="googSearch" type="submit" class="me-2  rounded-3"
+            style="border: 1px solid transparent; padding: 5px 10px;">Google
+            Search</button>
+        <a href="https://www.google.com/doodles"><button id="googluck" type="submit" class="ms-2  rounded-3"
+                style="border: 1px solid transparent; padding: 5px 10px;">I'm Feeling Lucky</button></a>
+    </div>
+
+    <div class="d-flex align-items-center justify-content-center mt-4">
+        <div class="col-lg-5 d-flex">
+            <ul class="list-unstyled list-group list-group-horizontal mx-auto" id="lang" style="font-size: 13px">
+                <li id="offerLang" class="ms-4 me-3">Google offered in:</li>
+                <li class="me-3 text-primary"><a class="text-decoration-none"
+                        href="https://www.google.com/setprefs?sig=0_-0KFBMlSSzx7H-QJ8Kk3UiMQCiU%3D&hl=af&source=homepage&sa=X&ved=0ahUKEwiW-sXCxYnzAhX_zTgGHfQUAkYQ2ZgBCA4">Afrikaans</a>
+                </li>
+                <li class="me-3 text-primary"><a class="text-decoration-none"
+                        href="https://www.google.com/setprefs?sig=0_-0KFBMlSSzx7H-QJ8Kk3UiMQCiU%3D&hl=st&source=homepage&sa=X&ved=0ahUKEwiA97ruxYnzAhWc73MBHbO7DagQ2ZgBCA8">Sesotho</a>
+                </li>
+                <li class="me-3 text-primary"><a class="text-decoration-none"
+                        href="https://www.google.com/setprefs?sig=0_-0KFBMlSSzx7H-QJ8Kk3UiMQCiU%3D&hl=zu&source=homepage&sa=X&ved=0ahUKEwiA97ruxYnzAhWc73MBHbO7DagQ2ZgBCBA">isiZulu</a>
+                </li>
+                <li class="me-3 text-primary"><a class="text-decoration-none"
+                        href="https://www.google.com/setprefs?sig=0_-0KFBMlSSzx7H-QJ8Kk3UiMQCiU%3D&hl=xh&source=homepage&sa=X&ved=0ahUKEwiA97ruxYnzAhWc73MBHbO7DagQ2ZgBCBE">IsiXhosa</a>
+                </li>
+                <li class="me-3 text-primary"><a class="text-decoration-none"
+                        href="https://www.google.com/setprefs?sig=0_-0KFBMlSSzx7H-QJ8Kk3UiMQCiU%3D&hl=tn&source=homepage&sa=X&ved=0ahUKEwiA97ruxYnzAhWc73MBHbO7DagQ2ZgBCBI">Setswana</a>
+                </li>
+                <li class="me-3 text-primary"><a class="text-decoration-none"
+                        href="https://www.google.com/setprefs?sig=0_-0KFBMlSSzx7H-QJ8Kk3UiMQCiU%3D&hl=nso&source=homepage&sa=X&ved=0ahUKEwiA97ruxYnzAhWc73MBHbO7DagQ2ZgBCBM">Northern
+                        Sotho</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <footer class="page-footer pt-3 fixed-bottom" style="background-color: rgb(238, 237, 237);">
+        <div>
+            <p class="text-secondary ms-4">South Africa</p>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-lg-4 d-flex my-auto mx-auto" id="footy1">
+                <ul class="list-unstyled list-group list-group-horizontal mb-3 ">
+                    <li><a class="ms-4 me-3 text-muted text-decoration-none"
+                            href="https://about.google/?utm_source=google-ZA&utm_medium=referral&utm_campaign=hp-footer&fg=1">
+                            About</a>
+                    </li>
+                    <li><a class="me-3 text-secondary text-decoration-none"
+                            href="https://www.google.com/intl/en_za/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Advertising</a>
+                    </li>
+                    <li><a class="me-3 text-secondary text-decoration-none"
+                            href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1">Business</a>
+                    </li>
+                    <li><a class="me-3 text-secondary text-decoration-none"
+                            href="https://google.com/search/howsearchworks/?fg=1">How
+                            Search works</a> </li>
+                </ul>
+            </div>
+            <div class="col-lg-4 d-flex my-auto mx-auto" id="footy2">
+                <p class="mx-auto"><img class="me-1" src="leaf.png" style="width: 13px;" alt=""><a
+                        class="text-muted text-decoration-none"
+                        href="https://sustainability.google/commitments/?utm_source=googlehpfooter&utm_medium=housepromos&utm_campaign=bottom-footer&utm_content=">Carbon
+                        neutral since 2007</a>
+
+                </p>
+            </div>
+            <div class="col-lg-4 end-100" id="footy3">
+                <ul class="list-unstyled list-group list-group-horizontal me-1 float-end">
+                    <li class="ms-4 me-3"><a class="text-muted text-decoration-non"
+                            href="https://policies.google.com/privacy?hl=en-ZA&fg=1"
+                            style="text-decoration: none !important">Privacy</a> </li>
+                    <li class="me-3"><a class="text-muted text-decoration-none"
+                            href="https://policies.google.com/terms?hl=en-ZA&fg=1">Terms</a>
+                    </li>
+                    <!-- <li>
+                        <div class="btn-group dropup">
+                            <button type="button" class="btn btn-muted dropdown-toggle" data-bs-toggle="dropdown"
+                                aria-expanded="false">Settings</button>
+
+                            <ul class="dropdown-menu">
+                                <li> <a class="dropdown-item" href="">Search Settings</a></li>
+                                <li> <a class="dropdown-item" href="">Advanced Search</a></li>
+                                <li> <a class="dropdown-item" href="">Your data in Search</a></li>
+                                <li> <a class="dropdown-item" href="">Search History</a></li>
+                                <li> <a class="dropdown-item" href="">Search Help</a></li>
+                                <li> <a class="dropdown-item" href="">Send Feedback</a></li>
+                                <hr>
+                                <li> <a class="dropdown-item" href="">Dark Theme: Off</a></li>
+                            </ul>
+                        </div>
+                    </li> -->
+                    <li class="m-0 p-0">
+                        <div class="btn-group dropup mb-1 me-3 p-0">
+                            <span type="button" class="btn btn-muted text-muted m-0 p-0" data-bs-toggle="dropdown"
+                                aria-expanded="false">Settings</span>
+                            <ul class="dropdown-menu">
+                                <li> <a class="dropdown-item"
+                                        href="https://www.google.com/preferences?hl=en-ZA&fg=1">Search Settings</a></li>
+                                <li> <a class="dropdown-item"
+                                        href="https://www.google.com/advanced_search?hl=en-ZA&fg=1">Advanced Search</a>
+                                </li>
+                                <li> <a class="dropdown-item"
+                                        href="https://www.google.com/history/privacyadvisor/search/unauth?utm_source=googlemenu&fg=1">Your
+                                        data in Search</a></li>
+                                <li> <a class="dropdown-item"
+                                        href="https://www.google.com/history/optout?hl=en-ZA&fg=1">Search History</a>
+                                </li>
+                                <li> <a class="dropdown-item"
+                                        href="https://support.google.com/websearch/?p=ws_results_help&hl=en-ZA&fg=1">Search
+                                        Help</a></li>
+                                <li> <a class="dropdown-item" href="">Send Feedback</a></li>
+                                <hr>
+                                <li> <a class="dropdown-item" href="">Dark Theme: Off</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <!-- <li class="me-3 text-secondary btn-group dropup">Settings</li> -->
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+        integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN"
+        crossorigin="anonymous"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js"
+        integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/"
+        crossorigin="anonymous"></script> -->
+
+
+    <script src="https://kit.fontawesome.com/9f03.js"></script>
+</body>
+
+</html>
